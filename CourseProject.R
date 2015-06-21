@@ -23,7 +23,7 @@ X_test <- read.table("X_test.txt", quote="\"")
 y_test <- read.table("y_test.txt", quote="\"")
 
 
-#Mergind Test and Train and removing not necessary dataframe
+#Merging Test and Train and removing not necessary dataframe
 subject = rbind(subject_train,subject_test)
 rm(subject_train)
 rm(subject_test)
@@ -53,7 +53,7 @@ names(AllData)[3] <- "ActivityLabel"
 
 AllData = cbind(AllData,meanStd)
 
-#Makes names a R standard
+#Makes names an R standard
 colnames(AllData) = make.names(colnames(AllData))
 
 #Make it more pretty
@@ -66,4 +66,4 @@ colnames(AllData) = gsub("\\.+",".",colnames(AllData))
 meanAllData = aggregate(. ~ Activity+Subject+ActivityLabel, AllData, mean)
 
 
-write.table(meanAllData,"meanAllData",row.names=FALSE)
+write.table(meanAllData,"meanAllData.txt",row.names=FALSE)
