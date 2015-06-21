@@ -1,15 +1,15 @@
 THE DATA :
 
-Data are taken from :
-	UCI HAR Dataset\train\subject_train.txt (the subject who did the action)
-	UCI HAR Dataset\train\X_train.txt (the measure done by the Samsung phone)
-	UCI HAR Dataset\y_train.txt (the activity that have been done : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING )
-	and
-	UCI HAR Dataset\test\* (description same as above, filename was just replaced by test instead of train)
-	
-Reference are from :
-	UCI HAR Dataset\activity_labels.txt (Activity description)
-	UCI HAR Dataset\features.txt (X_train and X_test columns description)
+	Data are taken from :
+		UCI HAR Dataset\train\subject_train.txt (the subject who did the action)
+		UCI HAR Dataset\train\X_train.txt (the measure done by the Samsung phone)
+		UCI HAR Dataset\y_train.txt (the activity that have been done : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING )
+		and
+		UCI HAR Dataset\test\* (description same as above, filename was just replaced by test instead of train)
+		
+	Reference are from :
+		UCI HAR Dataset\activity_labels.txt (Activity description)
+		UCI HAR Dataset\features.txt (X_train and X_test columns description)
 	
 
 THE SCRIPT
