@@ -14,7 +14,7 @@ THE DATA :
 
 THE SCRIPT
 
-	As described in comment on the original script on github
+	As described in comment on the original script on github (please open the run_analysis.R file at the same repository)
 	
 	
 CODE BOOK
